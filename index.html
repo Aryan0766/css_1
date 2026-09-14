@@ -1,136 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My CSS Website</title>
-  <style>
-    /* 1. Intro to CSS */
-    body {
-      background-color: Purple;
-      font-family: Times New Roman;
-      font-size: 20px;
-    }
-    h1 {
-      color: cyan;
-      text-align: center;
-    }
-    h2 {
-      color: cyan;
-    }
-    p {
-      color: cyan;
-      font-size: 18px;
-    }
-    .black-line {
-      background-color: black; 
-      height: 2.5px;             
-      border: none;
-      margin: 20px 0; 
-    }  /* Adds space above and below the line */
-    /* 2. Basic Link Tree */
-    .links {
-      text-align: center;
-    }
-
-    .links a {
-      display: block;
-      background-color: black;
-      padding: 10px;
-      margin: 10px;
-      color: cyan;
-    }
-    /* 3. Modern Minimalist */
-    .minimal {
-      text-align: center;
-      padding: 20px;
-      color: cyan;
-    }
-    /* 4. CSS Art */
-    .circle {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-      border-radius: 50%;
-      margin: auto;
-      color: cyan;
-    }
-    /* 5. Box Model */
-    .box {
-      color: cyan;
-      width: 200px;
-      padding: 20px;
-      border: 5px solid cyan;
-      margin: 30px auto;
-    }
-    /* 6. Basic Animation */
-    .moving-box {
-      width: 50px;
-      height: 50px;
-      background-color: green;
-      animation: move 2s infinite;
-    }
-    @keyframes move {
-      from {
-        margin-left: 0;
+  <head>
+    <title>My CSS Website</title>
+    <style>
+      /* 1. Intro to CSS */
+      body {
+        background-color: Purple;
+        font-family: Times New Roman;
+        font-size: 20px;
       }
-      to {
-        margin-left: 200px;
+
+      h1 {
+        color: cyan;
+        text-align: center;
       }
-    }
-    /* 7. Basic Positioning */
-    .position-box {
-      width: 100px;
-      height: 100px;
-      background-color: blue;
-      position: relative;
-      left: 50px;
-      top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <!-- 1. Intro to CSS -->
-  <h1>Introduction to CSS</h1>
-   <hr class="black-line">
-  <p>This is my first CSS website.</p>
-  <!-- 2. Basic Link Tree -->
-   <hr class="black-line">
- 
- <h2>My Links</h2>
-  <div class="links">
-   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> Instagram</a>
-   <a href="https://github.com/Aryan0766" target="_blank" rel="noopener noreferrer"> Github </a>
-   <a href="https://www.linkedin.com/in/aryanpatelinfotech/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
 
-  </div>
-  <!-- 3. Modern Minimalist -->
-  <div class="minimal">
-    <h2>Modern Minimalist</h2>
-    <p>Welcome to Useless website.</p>
-    <a href="https://www.boredbutton.com/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+      h2 {
+        color: cyan;
+      }
 
- 
-   </div>
+      p {
+        color: cyan;
+        font-size: 18px;
+      }
+
+      .black-line {
+        background-color: black;
+        height: 2.5px;
+        border: none;
+        margin: 20px 0;
+      }
+
+      /* Adds space above and below the line */
+      /* 2. Basic Link Tree */
+      .links {
+        text-align: center;
+      }
+
+      .links a {
+        display: block;
+        background-color: black;
+        padding: 10px;
+        margin: 10px;
+        color: cyan;
+      }
+
+      /* 3. Modern Minimalist */
+      .minimal {
+        text-align: center;
+        padding: 20px;
+        color: cyan;
+      }
+
+      /* 4. CSS Art */
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+        margin: auto;
+        color: cyan;
+      }
+
+      /* 5. Box Model */
+      .box {
+        color: black;
+        width: 200px;
+        padding: 15px;
+        border: 5px solid white;
+        margin: 30px auto;
+      }
+
+      /* 6. Basic Animation */
+      .moving-box {
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        border: 2px dashed white;
+        animation: move 9s infinite;
+      }
+
+      @keyframes move {
+        from {
+          margin-left: -100;
+        }
+
+        to {
+          margin-left: 920px;
+        }
+      }
+
+      /* 7. Basic Positioning */
+      .position-box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        left: 50px;
+        top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- 1. Intro to CSS -->
+    <h1>Introduction to CSS</h1>
     <hr class="black-line">
-  <!-- 4. CSS Art -->
-  <h2>CSS Art</h2>
- 
-  <div class="circle"></div>
-  <hr class="black-line">
-  
-  <!-- 5. Box Model -->
-  <h2>Box Model</h2>
-  <div class="box">
-    This is my box.
-  </div>
-   <hr class="black-line">
-  <!-- 6. Basic Animation -->
-  <h2>Basic Animation</h2>
+    <p>This is my first CSS website.</p>
+    <!-- 2. Basic Link Tree -->
+    <hr class="black-line">
 
-  <div class="moving-box"></div>
-   <hr class="black-line">
-  <!-- 7. Basic Positioning -->
-  <h2>Basic Positioning</h2>
-  <div class="position-box"></div>
-   <hr class="black-line">
-</body>
+    <h2>My Links</h2>
+    <div class="links">
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> Instagram</a>
+      <a href="https://github.com/Aryan0766" target="_blank" rel="noopener noreferrer"> Github </a>
+      <a href="https://www.linkedin.com/in/aryanpatelinfotech/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+
+    </div>
+    <!-- 3. Modern Minimalist -->
+    <div class="minimal">
+      <h2>Modern Minimalist</h2>
+      <p>Welcome to Useless website.</p>
+      <a href="https://www.boredbutton.com/" target="_blank" rel="noopener noreferrer"> GO </a>
+
+    </div>
+    <hr class="black-line">
+    <!-- 4. CSS Art -->
+    <h2>CSS Art</h2>
+
+    <div class="circle"></div>
+    <hr class="black-line">
+
+    <!-- 5. Box Model -->
+    <h2>Box Model</h2>
+    <div class="box">
+      This is my box.
+    </div>
+    <hr class="black-line">
+
+    <!-- 6. Basic Animation -->
+    <h2>Basic Animation</h2>
+    <div class="moving-box"></div>
+    <hr class="black-line">
+
+    <!-- 7. Basic Positioning -->
+    <h2>Basic Positioning</h2>
+    <div class="position-box"></div>
+    <hr class="black-line">
+  </body>
 </html>
