@@ -1,1 +1,115 @@
-<h1>Hello World Wide Web!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My CSS Website</title>
+  <style>
+    /* 1. Intro to CSS */
+    body {
+      background-color: white;
+      font-family: Arial;
+    }
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+    }
+    /* 2. Basic Link Tree */
+    .links {
+      text-align: center;
+    }
+
+    .links a {
+      display: block;
+      background-color: lightblue;
+      padding: 10px;
+      margin: 10px;
+      color: black;
+    }
+    /* 3. Modern Minimalist */
+    .minimal {
+      text-align: center;
+      padding: 20px;
+    }
+    /* 4. CSS Art */
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      border-radius: 50%;
+      margin: auto;
+    }
+    /* 5. Box Model */
+    .box {
+      width: 200px;
+      padding: 20px;
+      border: 5px solid black;
+      margin: 30px auto;
+    }
+    /* 6. Basic Animation */
+    .moving-box {
+      width: 50px;
+      height: 50px;
+      background-color: green;
+      animation: move 2s infinite;
+    }
+
+    @keyframes move {
+      from {
+        margin-left: 0;
+      }
+
+      to {
+        margin-left: 200px;
+      }
+    }
+    /* 7. Basic Positioning */
+    .position-box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+      left: 50px;
+      top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 1. Intro to CSS -->
+  <h1>Introduction to CSS</h1>
+  <p>This is my first CSS website.</p>
+  <!-- 2. Basic Link Tree -->
+  <h2>My Links</h2>
+  <div class="links">
+    <!-- This is how you force a link to open in a new tab -->
+   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> Instagram</a>
+   <a href="https://github.com/Aryan0766" target="_blank" rel="noopener noreferrer"> Github </a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <!-- 3. Modern Minimalist -->
+  <div class="minimal">
+    <h2>Modern Minimalist</h2>
+    <p>Welcome to my simple website.</p>
+    <button>Learn More</button>
+  </div>
+  <!-- 4. CSS Art -->
+  <h2>CSS Art</h2>
+  <div class="circle"></div>
+  <!-- 5. Box Model -->
+  <h2>Box Model</h2>
+  <div class="box">
+    This is my box.
+  
+  
+  </div>
+  <!-- 6. Basic Animation -->
+  <h2>Basic Animation</h2>
+
+  <div class="moving-box"></div>
+  <!-- 7. Basic Positioning -->
+  <h2>Basic Positioning</h2>
+  <div class="position-box"></div>
+</body>
+</html>
